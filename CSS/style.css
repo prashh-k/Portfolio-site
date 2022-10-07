@@ -1,0 +1,338 @@
+body {
+    background-color: #F0F0F0;
+}
+
+                /* header */
+
+#header-logo {
+    height: 35px;
+    border-radius: 50%;
+    margin: -4px 12px 0px 78px;
+
+}
+
+
+#header-text1 {
+    font-size: 23px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+#header-text2 {
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 15px;
+}
+
+/* Navigation Bar */
+
+.nav-bar a {
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: black;
+    text-decoration: none;
+    transition: color 0.5s;
+
+}
+
+.nav-bar .icon {
+    display: none;
+}
+
+.nav-contact {
+    margin-right: 54px;
+    border-left: 1px solid;
+
+}
+
+.nav-project {
+    border-left: 1px solid;
+}
+
+.nav-bar a:hover {
+    color: #a5a604;
+}
+
+
+
+                                /* Title */
+
+#intro {
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+
+#image {
+    border-radius: 50%;
+    height: 500px;
+    float: right;
+}
+
+#title {
+    margin-top: 50px;
+
+}
+
+#title div h1 {
+    font-size: 90px;
+    font-weight: 600;
+    font-family: Geneva;
+}
+
+#title div h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#title div p {
+    font-size: 17px;
+
+}
+
+#titlelink {
+    margin-top: 90px;
+ 
+}
+ 
+/* Title Link */
+#titlelink div a {
+    color: black;
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 45% 35% ;
+    font-weight: 600;
+}
+
+#resume {
+    background-color: #fdb300;
+    transition: background-color 1s;
+}
+
+#projects {
+    background-color: #fc4e46;
+    transition: background-color 1s;
+
+}
+
+#contact {
+    background-color: #00e4ec;
+    transition: background-color 1s;
+
+}
+
+#resume:hover {
+    background-color: white;
+}
+
+#projects:hover {
+    background-color: white;
+}
+
+#contact:hover {
+    background-color: white;
+} 
+
+                                    /* Footer */
+
+#footerline hr {
+    border-top: 2px solid #d5d2d4;
+    width: 90%;
+
+}
+
+#ftflex-container {
+    margin-top: 46px;
+}
+
+#ftflex-container div h1 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#ftflex-container div p {
+    font-weight: 100;
+    font-size: 15px;
+}
+
+#item-socialm a {
+    color: black;
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+
+                                                      /* Resume Page */
+
+
+/* Resume */
+
+#resumetitle h1 {
+    font-weight: 700;
+    font-size: 43px;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+/* Education */
+
+#title h1 {
+    font-size: 29px;
+    font-weight: 900;
+}
+
+#education div div p {
+    font-size: 15px;
+}
+
+#education div div h3 {
+    font-size: 22px;
+    font-weight: 900;
+}
+
+#education div div h5 {
+    font-size: 20px;
+    font-weight: 600;
+    color: gray;
+}
+
+/* Skills */
+
+#skills div ul li {
+    font-size: 22px;
+    padding-top: 5px;
+}
+
+/* Language */
+
+#language div ul li {
+    font-size: 22px;
+    padding-top: 5px;
+}
+
+/* COURSES */
+
+#courses div div p {
+    font-size: 15px;
+}
+
+#courses div div h3 {
+    font-size: 22px;
+    font-weight: 900;
+}
+
+/* HOBBIES */
+
+#hobbies div ul li {
+    font-size: 22px;
+    padding-top: 5px;
+}
+
+/* EXTRACURRICULAM ACTIVITIES */
+
+#extraact h1 {
+    font-size: 29px;
+    font-weight: 900;
+}
+
+#extraact h2 {
+    font-size: 22px;
+    font-weight: 700;
+    color: gray;
+}
+
+#extraact p {
+    font-size: 20px;
+}
+
+
+                                            /* Projects Page */
+
+#projecttitle h1 {
+    font-weight: 700;
+    font-size: 43px;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+#projectpage div div h1 {
+    font-size: 27px;
+    font-weight: 700;
+}
+
+#projectpage div div p {
+    font-size: 17px;
+}
+
+
+                                             /* Contact Page */
+
+#contacttitle h1 {
+    font-weight: 700;
+    font-size: 43px;
+}
+
+#contactmargin {
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+#contactpage h3 {
+    font-weight: 600;
+    font-size: 19px;
+}
+
+#contactpage p {
+    font-size: 15px;
+}
+
+/* FORM */
+
+#form input {
+    background-color: #F0F0F0;
+    border: 1px solid black;
+    width: 250px;
+    height: 40px;
+    margin-bottom: 15px;
+}
+
+#form input:hover {
+    border: 2px solid black;
+}
+
+#formmessage {
+    background-color: #F0F0F0;
+    border: 1px solid black;
+}
+
+#formmessage:hover {
+    border: 2px solid black;
+}
+
+#formsubmit {
+    background-color: #fdb300;
+    height: 150px;
+    margin-top: 31px;
+    width: 150px;
+    border-radius: 50%;
+    border: 1px solid black;
+    font-size: 25px;
+    font-weight: 700;
+    transition: background-color 1s;
+}
+
+#formsubmit:hover {
+    background-color: white;
+    border: 2px solid black;
+}
+
+
+
+
